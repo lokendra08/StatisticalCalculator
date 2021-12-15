@@ -45,7 +45,8 @@ continue to enter number OR enter 0 to exit
 0 press enter  
 
 # Program output description  
-1: When program starts, It asks user to stream values, let say user input number 1 and press ENTER, program will display  
+1:Press 0 to exit from program
+2: When program starts, It asks user to stream values, let say user input number 1 and press ENTER, program will display  
    Minimum, Maximum, Mean and Variance.  
    
    In additon to this, It will also display mean of Last entires entered in N minutes, which in case 1 minute by default.  
@@ -54,5 +55,6 @@ continue to enter number OR enter 0 to exit
    
 # Assumptions:
 1: Negative entires not allowed, this will error out with appropriate message.
+
 
 
