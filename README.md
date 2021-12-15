@@ -8,14 +8,6 @@ How to run program
 3: Add junit5 library to run test cases.   
 4: Just open StatCalculatorMain.java and run it as java application.   
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CALCULATOR PROGRAM !!!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
-~~~~ Basic Statistic calculator program developed by Lokendra Rawat ~~~~~~~~~~~~~~~~~~~~~~~~~   
-~~~~ Statistic salculator shows  max, min, mean, variance~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
-
-
 1: Enter your numbers.   
 1 press enter   
 Statistics Details:  
@@ -50,5 +42,9 @@ continue to enter number OR enter 0 to exit
    
    In additon to this, It will also display mean of Last entires entered in N minutes, which in case 1 minute by default.  
    This value can be configured in an external file.  
+   
+   
+# Assumptions:
+1: Negative entires not allowed, this will error out with appropriate message.
 
 
