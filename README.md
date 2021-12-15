@@ -17,7 +17,7 @@ Statistics Details:
    Minimum:         1.0  
    Maximum:         1.0  
    Mean:            1.0  
-   Variance:        NA  
+   Variance:        NA   Note--------> for first number variance is not applicable
  
 All streamed entries in last 1 minutes  
 Entry    :   Insertion Time  
