@@ -9,7 +9,8 @@ How to run program
 4: Just open StatCalculatorMain.java and run it as java application.   
 
 1: Enter your numbers.   
-1 press enter   
+1 press enter  
+
 Statistics Details:  
 
    Total Entries:   1  
@@ -17,11 +18,15 @@ Statistics Details:
    Maximum:         1.0  
    Mean:            1.0  
    Variance:        NA  
-1.0  :  1639549107887  :  Wed Dec 15 11:48:27 IST 2021  
-Mean of entries in last 1 minutes  1.0  
-continue to enter number OR enter 0 to exit  
+ 
+All streamed entries in last 1 minutes  
+Entry    :   Insertion Time  
+1.0      :  Wed Dec 15 13:03:39 IST 2021  
+Mean of entries in last 1 minutes  : 1.0  
 
+continue to enter number OR enter 0 to exit  
 2 press enter  
+
 Statistics Details:  
 
    Total Entries:   2  
@@ -29,11 +34,14 @@ Statistics Details:
    Maximum:         2.0  
    Mean:            1.5  
    Variance:        0.5  
-2.0  :  1639549153951  :  Wed Dec 15 11:49:13 IST 2021  
-1.0  :  1639549107887  :  Wed Dec 15 11:48:27 IST 2021  
-Mean of entries in last 1 minutes  1.5  
-continue to enter number OR enter 0 to exit  
+ 
+All streamed entries in last 1 minutes  
+Entry    :   Insertion Time  
+2.0      :  Wed Dec 15 13:03:42 IST 2021  
+1.0      :  Wed Dec 15 13:03:39 IST 2021  
+Mean of entries in last 1 minutes  : 1.5  
 
+continue to enter number OR enter 0 to exit  
 0 press enter  
 
 # Program output description  
