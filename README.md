@@ -1,12 +1,12 @@
 # StatisticalCalculator
-Calculator to perform statistical functions  max, min, mean and variance.
-Design is flexible enough to extend functinality for standard and scientific calculation.
+Calculator to perform statistical functions  max, min, mean and variance.  
+Design is flexible enough to extend functinality for standard and scientific calculation.  
 
-How to run program 
-1: Clone repo into your local folder. 
-2: Using Eclipse or any IDE to import project. 
-3: Add junit5 library to run test cases. 
-4: Just open StatCalculatorMain.java and run it as java application. 
+How to run program    
+1: Clone repo into your local folder.   
+2: Using Eclipse or any IDE to import project.   
+3: Add junit5 library to run test cases.   
+4: Just open StatCalculatorMain.java and run it as java application.   
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CALCULATOR PROGRAM !!!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
