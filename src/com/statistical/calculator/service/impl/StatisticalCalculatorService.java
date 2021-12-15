@@ -38,7 +38,7 @@ public class StatisticalCalculatorService implements IStatisticService, ICalcula
 	 * @return void
 	 */	
 	@Override
-	public void event(double num) {
+	public double event(double num) {
 		entryTimeMap.put(num, System.currentTimeMillis());
 		entriesCount++;
 		sum += num;
@@ -46,6 +46,7 @@ public class StatisticalCalculatorService implements IStatisticService, ICalcula
 			maximum = num;
 		if (num < minimum)
 			minimum = num;
+		return sum;
 	}
 
 	/**
@@ -71,8 +72,11 @@ public class StatisticalCalculatorService implements IStatisticService, ICalcula
         entryTimeMap.entrySet().parallelStream().filter(entry->CalcUtility.checkIfLastNMinutes(inLastNminutes, entry)).forEach(e->{
         	map.put(e.getKey(), e.getValue());
 		});
+        System.out.println(" ");
+        System.out.println("All streamed entries in last "+CalculatorConstants.IN_LAST_N_MINUTES+" minutes");
+        System.out.println("Entry    :   Insertion Time");
         map.entrySet().stream().forEach(entry->{
-        	System.out.println(entry.getKey()+"  :  "+entry.getValue()+"  :  "+new Date(entry.getValue()));
+        	System.out.println(entry.getKey()+"      :  "+new Date(entry.getValue()));
         });     
 		return CalcUtility.getMean(map.keySet().stream().mapToDouble(key->key).sum(), map.size());
 	}
@@ -143,6 +147,6 @@ public class StatisticalCalculatorService implements IStatisticService, ICalcula
 		} else {
 			System.out.println("   Variance:        " + this.getVariance());
 		}
-		System.out.println("Mean of entries in last "+CalculatorConstants.IN_LAST_N_MINUTES+" minutes  "+ this.getMean(CalculatorConstants.IN_LAST_N_MINUTES));
+		System.out.println("Mean of entries in last "+CalculatorConstants.IN_LAST_N_MINUTES+" minutes  : "+ this.getMean(CalculatorConstants.IN_LAST_N_MINUTES)+"\n");
 	}
 }
