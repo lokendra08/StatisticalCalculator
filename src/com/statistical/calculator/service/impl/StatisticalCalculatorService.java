@@ -38,7 +38,7 @@ public class StatisticalCalculatorService implements IStatisticService, ICalcula
 	 * @return void
 	 */	
 	@Override
-	public double event(double num) {
+	public void event(double num) {
 		entryTimeMap.put(num, System.currentTimeMillis());
 		entriesCount++;
 		sum += num;
@@ -46,7 +46,6 @@ public class StatisticalCalculatorService implements IStatisticService, ICalcula
 			maximum = num;
 		if (num < minimum)
 			minimum = num;
-		return sum;
 	}
 
 	/**
